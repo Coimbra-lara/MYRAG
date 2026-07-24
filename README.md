@@ -11,7 +11,7 @@
 An advanced **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF documents, extract text, generate vector embeddings, and interact with the content through an intelligent conversational interface powered by Google's Gemini AI.
 
 ### 🚀 Live Demo
-**👉 [Clique Aqui para Acessar a Aplicação]npx plugins add vercel/vercel-plugin**
+**👉 [Clique Aqui para Acessar a Aplicação]https://myrag-nu.vercel.app**
 
 ---
 
