@@ -146,7 +146,7 @@ export const getChatMessages = async (req: AuthRequest, res: Response): Promise<
 
     // Verifica se o chat pertence ao user
     const chat = await prisma.chat.findFirst({
-      where: { id: chatId, userId },
+      where: { id: String(chatId), userId },
       include: {
         messages: {
           orderBy: { createdAt: 'asc' }
